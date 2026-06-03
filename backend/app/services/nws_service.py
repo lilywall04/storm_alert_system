@@ -7,8 +7,7 @@ from app.services.alert_explainer import explain_alert, get_alert_color
 NWS_BASE_URL = "https://api.weather.gov"
 
 HEADERS = {
-    "User-Agent": "StormSignal/1.0 lily@example.com",
-    "Accept": "application/geo+json",
+"User-Agent": "StormSignal/1.0, contact: lilywallace@example.com",    "Accept": "application/geo+json",
 }
 
 
